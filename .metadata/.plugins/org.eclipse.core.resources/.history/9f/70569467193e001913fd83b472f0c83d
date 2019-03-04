@@ -1,0 +1,23 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$database = "activity1";
+
+$firstname = $_POST['FirstName'];
+$lastname = $_POST['LastName'];
+
+
+$conn = mysqli_connect($servername, $username, $password, $database);
+$sql = "INSERT INTO activity1 (FIRST_NAME, LAST_NAME)
+VALUES ('$firstname', '$lastname')";
+
+if($conn->query($sql) === TRUE){
+    echo "Success!";
+} else {
+    echo "Failure";
+}
+
+
+$conn->close();
+?>

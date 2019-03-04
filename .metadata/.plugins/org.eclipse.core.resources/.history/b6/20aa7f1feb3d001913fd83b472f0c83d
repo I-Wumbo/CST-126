@@ -1,0 +1,9 @@
+<?php 
+    echo "First name is ".$_POST["FirstName"]
+?><br>
+    
+<?php 
+    echo "First name is ".$_POST["LastName"]
+?><br>
+
+You are now registered. <br>

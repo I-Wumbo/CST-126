@@ -1,0 +1,11 @@
+<?php
+echo "Got the Form";
+?>
+
+<?php 
+    echo "First name is ".$_POST["FirstName"]
+?>
+    
+<?php 
+    echo "First name is ".$_POST["FirstName"]
+?>

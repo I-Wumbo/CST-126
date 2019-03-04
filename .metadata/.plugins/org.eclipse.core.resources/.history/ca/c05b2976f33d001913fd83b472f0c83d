@@ -1,0 +1,15 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$database = "activity1";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $database);
+$sql = "INSERT INTO activity1 (FIRST_NAME, LAST_NAME)
+VALUES ('". $_POST["FirstName"]."', '". $_POST["LastName"]."')";
+
+$conn->query($sql);
+
+$con->close()
+?>
