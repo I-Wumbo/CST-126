@@ -1,7 +1,7 @@
 <?php
 $servername= "localhost";
-$username = "root";
-$password = "root";
+$username = "azure";
+$password = "6#vWHD_$";
 $database = "blog";
 
 $registeredUsername = $_POST['username'];
